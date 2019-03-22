@@ -7,6 +7,7 @@ window.onload = function()
 {
 	// lets git the HTML canvas element so we draw on it
 	var canvas = document.getElementById("c");
+
 	var ctx = canvas.getContext("2d");
 
 	var W = document.getElementById("result").offsetWidth, /// get the width of our window
